@@ -123,7 +123,7 @@ const EmployeeSignUp = async (req, res) => {
       email: email,
       password: hashPassword,
       name: 'Guest',
-      role: 'Admin',
+      role: 'Public',
       status: 'Enable'
     });
 
