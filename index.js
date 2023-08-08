@@ -20,7 +20,8 @@ app.use(morgan('dev'));
 const corsOptions = {
     origin: [
         "http://localhost:3000",
-        "http://localhost:4200"
+        "http://localhost:4200",
+        "https://uatquotes.ansarimohammad.com/"
     ]
 };
 // const corsOptions = { origin: "*" };
